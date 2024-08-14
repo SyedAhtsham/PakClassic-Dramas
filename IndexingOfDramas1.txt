@@ -1,0 +1,101 @@
+Index*DramaName*Year*Actor*Director*Writer*Genre*Link
+1*Aangan Terha*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari, Durdana Butt, Azra Sherwani, Anwar Maqsood, Sultana Zafar*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE
+2*Andhera Ujala*1985*Irfan Khoosat, Jamil Fakhri, Qavi Khan, Abid Butt*Rashid Dar*Younis Javed*Tele-Film*https://www.youtube.com/watch?v=Ysy-Te_uAVM
+3*Parchaiyan*1976*Rahat Kazmi, Sahira Kazmi, Talat Hussain, Begum Khurshid Mirza, Shakeel, Azra Sherwani, Khursheed Shahid*Mohsin Ali*Hasina Moin*Tele-Film*https://www.youtube.com/playlist?list=PLv496xzEMO8oTd-zTJPDHBi-LEWei7Pyk
+4*Alif Noon*1965*Rafi Khawar, Kamal Ahmed Rizvi*Kamal Ahmed Rizvi*Kamal Ahmed Rizvi*Comedy*https://www.youtube.com/watch?v=P2QD9-2QVOY
+5*Angar Wadi*1994*Rauf Khalid, Atiqa Odho, Farid Ullah, Shagufta Ali, Qavi Khan, Khayyam Sarhadi*Tariq Mairaj*Rauf Khalid*Drama Serial*https://www.youtube.com/watch?v=pcGA6ELaBQs
+6*Aansoo*2000*Talat Hussain, Noman Ijaz, Nabeel, Shagufta Ejaz*Ali Rizvi*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=33VJs-CuD9U
+7*Ainak Wala Jin*1993*Shehzad Qaiser, Munna Lahori, Nisar Butt, Asad Bhandara, Nusrat Ara, Haseeb Pasha, Ijlal Tahir, Moattar Bokhari, Fariha Pervez, Humera Arshad, Jamil Fakhri, Albela, Rashid Mehmood, Ghayyur Akhtar*Hafeez Tahir*Abdul Hameed*Comedy*https://www.youtube.com/watch?v=Vpt6rHhaNW4
+8*Alpha Bravo Charlie*1998*Faraz Inam, Capt. Abdullah Mehmood, Capt. Qasim Khan, Shahnaz Khawaja*Shoaib Mansoor*Shoaib Mansoor*Tele-Film*https://www.youtube.com/watch?v=rTnuwxDfLgo
+9*Waris*1980*Abid Ali, Mehboob Alam, Uzma Gillani, Samina Ahmad, Firdous Jamal, Ghayyur Akhtar, Nighat Butt, Tahira Naqvi, Agha Sikandar, Jeevan Sultan, Jamal Shah*Ghazanfer Ali*Amjad Islam Amjad*Drama Serial*https://www.dailymotion.com/video/x7ubifq
+10*Laag*1998*Rauf Khalid, Zeba Bakhtiar, Nadia Khan, Sohail Asghar, Nayyar Ejaz, Nirma, Rashid Mehmood*Rauf Khalid*Rauf Khalid*Drama Serial*https://www.youtube.com/watch?v=x2ixHG9pqUs
+11*Dhuwan*1994*Ashir Azeem, Nabeel, Zubair Khan Achakzai, Nazli Nasr, Asal Din Khan, Wajid Ali Shah, Nayyar Ejaz, Azra Aftab*Sajjad Ahmed*Ashir Azeem*Action*https://www.youtube.com/watch?v=Wgncr87ncC4
+12*Khuda Ki Basti*1969*Zaheen Tahira, Qazi Wajid, Mahmood Ali, Zahoor Ahmed, Subhani ba Yunus, Shakeel Chughtai, Zahoor Ahmed, Tauqir Fatima, Iqbal Tareen, Behroze Sabzwari, Munawwar Sultana, Saqib Sheikh*Shaukat Siddiqui*Bakhtiyar Ahmed*Drama Serial*https://www.youtube.com/watch?v=y0qQ8Xjcdic
+13*Janjaal Pura*2000*Savera Nadeem, Mehmood Aslam, Naseem Vicky*Tariq Jamil*Shahid Nadeem*Comedy*https://www.youtube.com/watch?v=M-5jSrXUlRQ
+14*Jangloos*1989*M. Warsi, Shabbir Jan, Asharf Khan, Fareed Nawaz Baloch, Samar Tufail, Aslam Laatar*Kazim Pasha*Shaukat Siddiqui*Action*https://www.youtube.com/watch?v=rvzJoARtiUY
+15*Marvi*1993*Hassam Qazi, Ghazal Siddique, Mahnoor Baloch, Roshan Atta, Anwar Solangi*Sultana Siddiqui*Noor ul Huda Shah*Drama Serial*https://www.youtube.com/watch?v=aEV-Yd5N4eQ
+16*Landa Bazar*2002*Babar Ali, Farah Shah, Tauqeer Nasir, Firdous Jamal, Ali Zafar, Waseem Abbas, Kashif Mehmood, Mehmood Aslam, Rija Ali, Munir Nadir, Nighat Butt, Faisal Rehman, Jana Malik, Urooj Nasir Sheraz*Dilawar Malik*Khalil-Ur-Rehman Qamar*Comedy*https://www.youtube.com/watch?v=I_mN5yMxK_s
+17*Des Pardes*1983*Sultan Rahi, Aasia, Mustafa Qureshi, Chakori, Bahar, Shugafta, Tariq Javed, Afzaal Ahmed, Aaliya, Iqbal Durrani*Iftikhar Khan*Nasir Adeeb*Tele-Film*https://www.youtube.com/watch?v=MRpGbaHKGNo
+18*Tanhaiyaan*1986*Shehnaz Sheikh, Marina Khan, Asif Raza Mir, Badar Khalil, Behroze Sabzwari, Azra Sherwani, Qazi Wajid, Durdana Butt*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=WbNiQBMmvBI
+19*Ankahi*1982*Shehnaz Sheikh, Shakeel, Javed Sheikh, Jamshed Ansari, Saleem Nasir, Qazi Wajid, Behroze Sabzwari, Badar Khalil*Shoaib Mansoor*Hasina Moin*Action*https://www.youtube.com/playlist?list=PLwD1RTkGe5Ed3L-vtWY8BDYBqfhbpc0hG
+20*Uncle Urfi*1972*Shakeel, Shahla Ahmad, Begum Khurshid Mirza, Azra Sherwani, Khursheed Shahid, Qurban Jilani, Jamshed Ansari, Akbar Subhani, Khalid Nizami, Nahid Rafiq*Mohsin Ali*Hasina Moin*Action*https://www.youtube.com/watch?v=xKfqn1KEAjQ
+21*Hawaain*1983*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan, Shakeel, Qazi Wajid, Shehnaz Sheikh*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=b-Dh6y65_bA
+22*Jangli*1979*Rauf Khalid, Anwar Maqsood, Sultana Zafar, Tariq Aziz*Shaukat Siddiqui*Shaukat Siddiqui*Drama Serial*https://www.youtube.com/watch?v=Behbyx_hjIA
+23*Mehndi*1999*Huma Nawab, Farhan Ali Agha, Atiqa Odho, Ghulam Mohiuddin*Farhan Ali Agha*Farhan Ali Agha*Drama Serial*https://www.youtube.com/watch?v=j8DX3IXEJiY
+24*Jhoot*1975*Rahat Kazmi, Qazi Wajid, Begum Khurshid Mirza, Mehmood Ali*Shaukat Siddiqui*Shaukat Siddiqui*Drama Serial*https://www.youtube.com/watch?v=v0LW9RvdhrA
+25*Aangan*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE
+26*Kiran*1988*Shahnaz Sheikh, Talat Hussain, Badar Khalil, Marina Khan*Abdul Hameed*Abdul Hameed*Drama Serial*https://www.youtube.com/@Kiran-gl4gn
+27*Tanhaiyan*1986*Shehnaz Sheikh, Marina Khan, Asif Raza Mir, Badar Khalil*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/hashtag/tanhaiyan
+28*Waris*1980*Abid Ali, Mehboob Alam, Uzma Gillani, Samina Ahmad*Ghazanfer Ali*Amjad Islam Amjad*Drama Serial*https://www.dailymotion.com/video/x7ubifq
+29*Zard Dopehar*1984*Shahnaz Sheikh, Anwar Maqsood, Salim Nasir, Shakeel*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://m.youtube.com/watch?v=Jgc1jIAvwRE&pp=ygUVI2FnYXJkcmFtYWNhc3R0aGVubm93
+30*Dhoop Kinare*1987*Dr. Syed Waseem Ahmed, Marina Khan, Rahat Kazmi, Badar Khalil*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=6AIWdqozO-I
+31*Raja Aur Runk*1987*Sultan Rahi, Neelo, Bahar, Mustafa Qureshi*M. A. Faruqui*Nasir Adeeb*Drama Serial*https://www.youtube.com/playlist?list=PL0CaUqi81mPl4YJN0A_liYioWap66Z4RD
+32*Fifty Fifty*1980*Moin Akhtar, Anwar Maqsood, Bushra Ansari, Tariq Aziz*Moin Akhtar*Anwar Maqsood*Comedy*https://www.youtube.com/watch?v=N0_AkDYDGD8
+33*Woh*1981*Abid Ali, Uzma Gillani, Samina Ahmad, Ghayyur Akhtar*Rafiq Rizvi*Amjad Islam Amjad*Drama Serial*https://www.youtube.com/watch?v=Xr3jxE0FqrU
+34*Ashiyana*1993*Huma Nawab, Farhan Ali Agha, Atiqa Odho, Ghulam Mohiuddin*Farhan Ali Agha*Farhan Ali Agha*Drama Serial*https://www.youtube.com/watch?v=GY_BhziicYg
+35*Dastaan*2010*Fawad Khan, Sanam Baloch, Mehmood Aslam, Saba Qamar*Haissam Hussain*Rashid Mahmood*Drama Serial*https://www.youtube.com/watch?v=DUWIkBjuwF8
+36*Chakori*1977*Rahat Kazmi, Sultana Zafar, Begum Khurshid Mirza, Shakeel*Mohsin Ali*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=sl0_fhMOUa8
+37*Saheli*1985*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=QUvldpf4MYQ
+38*Kashkol*1996*Shaan Shahid, Meera, Reema, Tariq Aziz*Rauf Khalid*Rauf Khalid*Drama Serial*https://www.youtube.com/watch?v=M-_Dn3jKLV0
+39*Hawaain*1983*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=b-Dh6y65_bA
+40*Chand Grehan*1985*Shahnaz Sheikh, Badar Khalil, Anwar Maqsood, Shehnaz Sheikh*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=eI-MIPOv9RY
+41*Khalil*1988*Rauf Khalid, Sultana Zafar, Ghazal Siddique, Ashraf Khan*Rauf Khalid*Rauf Khalid*Drama Serial*https://www.youtube.com/channel/UC-UhZ7oris1xoOuzh667GVQ
+42*Jadoo*1984*Naseem Vicky, Mehmood Aslam, Naila Jaffri*Jamil Dehlavi*Jamil Dehlavi*Comedy*https://m.youtube.com/watch?v=-V1loB1x18Y
+43*Piya Ghar Aaya*1999*Shaan Shahid, Reema, Tariq Aziz, Saba Faisal*Farhan Ali Agha*Farhan Ali Agha*Drama Serial*https://www.youtube.com/watch?v=EKLX48ITLKA
+44*Zard Dopehar*1984*Shahnaz Sheikh, Anwar Maqsood, Salim Nasir, Shakeel*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://m.youtube.com/watch?v=Jgc1jIAvwRE&pp=ygUVI2FnYXJkcmFtYWNhc3R0aGVubm93
+45*Aangan Terha*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE
+46*Jhoot*1975*Rahat Kazmi, Qazi Wajid, Begum Khurshid Mirza, Mehmood Ali*Shaukat Siddiqui*Shaukat Siddiqui*Drama Serial*https://www.youtube.com/watch?v=v0LW9RvdhrA
+47*Parchaiyan*1976*Rahat Kazmi, Sahira Kazmi, Talat Hussain, Begum Khurshid Mirza*Mohsin Ali*Hasina Moin*Tele-Film*https://www.youtube.com/playlist?list=PLv496xzEMO8oTd-zTJPDHBi-LEWei7Pyk
+48*Sangdil*1984*Shaan Shahid, Reema, Tariq Aziz, Mehmood Aslam*Farhan Ali Agha*Farhan Ali Agha*Drama Serial*https://www.youtube.com/watch?v=BuA7WxH_mgE
+49*Dost*1982*Asif Raza Mir, Marina Khan, Badar Khalil, Shahnaz Sheikh*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=gywLsg7FpzY
+50*Jangloos*1989*M. Warsi, Shabbir Jan, Asharf Khan, Fareed Nawaz Baloch*Kazim Pasha*Shaukat Siddiqui*Action*https://www.youtube.com/watch?v=rvzJoARtiUY
+51*Jeevan Sathi*1997*Fawad Khan, Huma Nawab, Atiqa Odho*Huma Nawab*Fawad Khan*Drama Serial*https://www.youtube.com/watch?v=dZ4Sc_pdkDY
+52*Mitti*1998*Naseem Vicky, Mehmood Aslam, Saba Faisal*Hafeez Tahir*Abdul Hameed*Comedy*https://www.youtube.com/watch?v=4VrWBIztFis
+53*Panaah*1984*Rauf Khalid, Salim Nasir, Shakeel, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=KKp8bph26mk
+54*Naheed*1993*Shaan Shahid, Reema, Tariq Aziz, Saba Faisal*Farhan Ali Agha*Farhan Ali Agha*Drama Serial*https://www.youtube.com/watch?v=P7yVQAMSLdg
+55*Ratan*1992*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/channel/UC6DVGZPO-OJMR1gD8z5oDeA
+56*Chupke Chupke*1975*Moin Akhtar, Bushra Ansari, Tariq Aziz, Asif Raza Mir*Haseeb Pasha*Anwar Maqsood*Comedy*https://www.youtube.com/watch?v=8lprjCd21ig
+57*Arman*1966*Sultan Rahi, Neelo, Qazi Wajid, Mehmood Ali*Rafiq Rizvi*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=vz_csFQr4sQ
+58*Naqab*1980*Rauf Khalid, Shahnaz Sheikh, Badar Khalil, Marina Khan*Farhan Ali Agha*Hasina Moin*Drama Serial*https://www.youtube.com/playlist?list=PLpZLHt6c4Ik8YyuRFoxBTAairKh2oXmco
+59*Mera Saeein*1996*Shaan Shahid, Reema, Tariq Aziz, Saba Faisal*Rauf Khalid*Rauf Khalid*Drama Serial*https://www.youtube.com/watch?v=NNZwfDY1vyE
+60*Aangan Terha*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE
+61*Khandaan*1984*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=TmKrDH_R2as
+62*Dastaan*2010*Fawad Khan, Sanam Baloch, Mehmood Aslam, Saba Qamar*Haissam Hussain*Rashid Mahmood*Drama Serial*https://www.youtube.com/watch?v=DUWIkBjuwF8
+63*Kashkol*1996*Shaan Shahid, Meera, Reema, Tariq Aziz*Rauf Khalid*Rauf Khalid*Drama Serial*https://www.youtube.com/watch?v=M-_Dn3jKLV0
+64*Ghar Ek Mandir*1983*Rauf Khalid, Bushra Ansari, Tariq Aziz, Sultana Zafar*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=TACN5_AmQPY
+65*Shahrukh*1989*Fawad Khan, Mehmood Aslam, Atiqa Odho, Saba Faisal*Farhan Ali Agha*Farhan Ali Agha*Drama Serial*https://www.youtube.com/watch?v=veRjk1kzzLc
+66*Jangli*1989*M. Warsi, Shabbir Jan, Asharf Khan, Fareed Nawaz Baloch*Kazim Pasha*Shaukat Siddiqui*Action*https://www.youtube.com/playlist?list=PL65eurRkEvghrieaRGNpneAZmZoUeM5Kc
+67*Sargam*1979*Sultan Rahi, Neelo, Khursheed Shahid, Qazi Wajid*Rafiq Rizvi*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=3qGZC6vm310
+68*Khwab*1982*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=wpZqg2qbY44
+69*Woh*1981*Abid Ali, Uzma Gillani, Samina Ahmad, Ghayyur Akhtar*Rafiq Rizvi*Amjad Islam Amjad*Drama Serial*https://www.youtube.com/watch?v=Xr3jxE0FqrU
+70*Darya*1995*Shaan Shahid, Reema, Tariq Aziz, Saba Faisal*Rauf Khalid*Rauf Khalid*Drama Serial*https://www.youtube.com/watch?v=kGPkErf1Fvs
+71*Zard Dopehar*1984*Shahnaz Sheikh, Anwar Maqsood, Salim Nasir, Shakeel*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://m.youtube.com/watch?v=Jgc1jIAvwRE&pp=ygUVI2FnYXJkcmFtYWNhc3R0aGVubm93
+72*Dastaan*2010*Fawad Khan, Sanam Baloch, Mehmood Aslam, Saba Qamar*Haissam Hussain*Rashid Mahmood*Drama Serial*https://www.youtube.com/watch?v=DUWIkBjuwF8
+73*Naukar*1976*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=V4mGFLbsy9k
+74*Dhoop Kinare*1987*Dr. Syed Waseem Ahmed, Marina Khan, Rahat Kazmi, Badar Khalil*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=6AIWdqozO-I
+75*Gul-e-Rana*1989*Sultana Zafar, Shahnaz Sheikh, Asif Raza Mir, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=sm80k4kWpZs
+76*Karamat*1985*Sultan Rahi, Neelo, Khursheed Shahid, Qazi Wajid*Rafiq Rizvi*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=yJhOn0N9bms
+77*Mitti*1998*Naseem Vicky, Mehmood Aslam, Saba Faisal*Hafeez Tahir*Abdul Hameed*Comedy*https://www.youtube.com/watch?v=4VrWBIztFis
+78*Aangan Terha*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE
+79*Chandani*1990*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=yyl3QgXJUX8
+80*Aangan*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE
+81*Shehzori*1989*Shehnaz Sheikh, Badar Khalil, Asif Raza Mir, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=rFzqfa9XOTY
+82*Nusrat*1990*Abid Ali, Mehboob Alam, Samina Ahmad, Uzma Gillani*Shaukat Siddiqui*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=W-06Fc89KeY
+83*Woh*1981*Abid Ali, Uzma Gillani, Samina Ahmad, Ghayyur Akhtar*Rafiq Rizvi*Amjad Islam Amjad*Drama Serial*https://www.youtube.com/watch?v=Xr3jxE0FqrU
+84*Dilli Darbar*1981*Rauf Khalid, Mehmood Aslam, Qazi Wajid, Neelo*Farhan Ali Agha*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=luLqbD9uGC8
+85*Hum Kahan Ke Sachay Thay*1976*Rahat Kazmi, Sahira Kazmi, Talat Hussain, Begum Khurshid Mirza*Mohsin Ali*Hasina Moin*Drama Serial*https://www.youtube.com/playlist?list=PLbVdwtmx18svOvsLrqBzLcZnqiOL4dYFi
+86*Alif Noon*1965*Rafi Khawar, Kamal Ahmed Rizvi*Kamal Ahmed Rizvi*Kamal Ahmed Rizvi*Comedy*https://www.youtube.com/watch?v=P2QD9-2QVOY
+87*Saza*1989*Rauf Khalid, Farah Shah, Tariq Aziz, Sultana Zafar*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=R4kotRgoRnc
+88*Aangan*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE
+89*Pehchaan*1987*Sultan Rahi, Neelo, Qazi Wajid, Mehmood Ali*Rafiq Rizvi*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=OaqscGVqapo
+90*Jangloos*1989*M. Warsi, Shabbir Jan, Asharf Khan, Fareed Nawaz Baloch*Kazim Pasha*Shaukat Siddiqui*Action*https://www.youtube.com/watch?v=rvzJoARtiUY
+91*Chupke Chupke*1975*Moin Akhtar, Bushra Ansari, Tariq Aziz, Asif Raza Mir*Haseeb Pasha*Anwar Maqsood*Comedy*https://www.youtube.com/watch?v=8lprjCd21ig
+92*Mitti*1998*Naseem Vicky, Mehmood Aslam, Saba Faisal*Hafeez Tahir*Abdul Hameed*Comedy*https://www.youtube.com/watch?v=4VrWBIztFis
+93*Dard*1984*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=wPehj5HG2eE
+94*Parchaiyan*1976*Rahat Kazmi, Sahira Kazmi, Talat Hussain, Begum Khurshid Mirza*Mohsin Ali*Hasina Moin*Tele-Film*https://www.youtube.com/playlist?list=PLv496xzEMO8oTd-zTJPDHBi-LEWei7Pyk
+95*Nadia*1982*Mehmood Ali, Neelo, Qazi Wajid, Khursheed Shahid*Rafiq Rizvi*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=COAksQi1zwk
+96*Satyam Shivam Sundaram*1980*Sultan Rahi, Neelo, Khursheed Shahid, Qazi Wajid*Rafiq Rizvi*Nasir Adeeb*Drama Serial*https://www.youtube.com/watch?v=O0dZb0fFNRc
+97*Naukar*1976*Shahnaz Sheikh, Asif Raza Mir, Badar Khalil, Marina Khan*Shahzad Khalil*Hasina Moin*Drama Serial*https://www.youtube.com/watch?v=V4mGFLbsy9k
+98*Umeed*1986*Rauf Khalid, Mehmood Aslam, Reema, Tariq Aziz*Rauf Khalid*Rauf Khalid*Drama Serial*https://www.youtube.com/watch?v=veRjk1kzzLc
+99*Lakhon Mein Teen*1990*Sultan Rahi, Mehmood Ali, Neelo, Qazi Wajid*Rafiq Rizvi*Nasir Adeeb*Drama Serial*https://en.wikipedia.org/wiki/List_of_teen_dramas
+100*Aangan*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari*Qaiser Farooq*Anwar Maqsood*Drama Serial*https://www.youtube.com/watch?v=lmy0V_GlZDE

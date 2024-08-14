@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakClassic Dramas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="text-gray-100 font-roboto bg-black">
+
+<!-- Header -->
+<header class="bg-gray-900 shadow-lg">
+    <div class="container mx-auto p-6 flex flex-col items-center">
+        <a href="#" class="text-2xl text-center font-bold text-white transition-transform transform hover:scale-110">PakClassic Dramas Search</a>
+    </div>
+</header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-8">
+
+
+<!-- Search and Filter -->
+<div class="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+    <form id="search-form" class="flex flex-col md:flex-row items-between">
+        <!-- Search Bar -->
+        <input type="text" id="search-input" placeholder="Search Pak Classic" class="w-full md:w-auto px-4 py-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 mb-4 md:mb-0 md:mr-4 flex-grow">
+
+        <!-- Filter Options -->
+<div class="flex sm:justify-between space-x-4 md:flex-row mb-4 md:mb-0 md:mr-4">
+    <select id="filter-year" class="bg-gray-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 flex-1">
+        <!-- Year options will be populated dynamically -->
+    </select>
+    <select id="filter-genre" class="bg-gray-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 flex-1">
+        <!-- Genre options will be populated dynamically -->
+    </select>
+</div>
+
+        <!-- Search Button -->
+        <button type="button" id="search-button" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 md:w-auto w-full">
+            <i class="fas fa-search"></i> Search
+        </button>
+    </form>
+</div>
+
+
+<div id="dramas-list" class="">
+    {% if dramas_info != -1 %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        {% for drama in dramas_info %}
+        <div class="drama-item bg-gray-800 rounded-lg shadow-lg overflow-hidden group"
+            data-title="{{ drama[1] }}" data-year="{{ drama[2] }}" data-genre="{{ drama[6] }}"
+        >
+
+            {% if drama[8] %}
+            <img src="{{ url_for('static', filename=drama[8]) }}" alt="drama image" class="w-full h-48 object-cover">
+            {% else %}
+            <div class="w-full h-48 flex flex-col items-center justify-center bg-black text-white text-center">
+                <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent rounded-b-lg">
+                    <h3 class="text-lg text-gray-300">Image n/a</h3>
+                    <h3 class="text-2xl font-semibold text-white">{{ drama[1] }}</h3>
+                </div>
+            </div>
+            {% endif %}
+
+            <div class="px-4 py-2 sm:mt-2 flex items-center">
+                <h2 class="text-lg font-bold text-white flex-grow">{{ drama[1] }}</h2>
+                {% if drama[7] %}
+                <a href="{{ drama[7] }}" target="_blank" class="text-white hover:text-red-600">
+                    <i class="fas fa-play-circle text-3xl"></i>
+                </a>
+                {% endif %}
+            </div>
+            <p class="text-sm text-gray-400 px-4">Year: {{ drama[2] }}</p>
+            <div class="px-4 py-2 border-b border-gray-700">
+                <p class="text-sm text-gray-400">Cast:</p>
+                {% if drama[3]|length > 80 %}
+                <p class="text-sm text-white">{{ drama[3][:80] }}...</p>
+                {% else %}
+                <p class="text-sm text-white">{{ drama[3] }}</p>
+                {% endif %}
+            </div>
+            <div class="px-4 py-2 border-b border-gray-700">
+                <p class="text-sm text-gray-400">Writer:</p>
+                <p class="text-sm text-white">{{ drama[5] }}</p>
+            </div>
+            <div class="px-4 py-2 border-b border-gray-700">
+                <p class="text-sm text-gray-400">Director:</p>
+                <p class="text-sm text-white">{{ drama[4] }}</p>
+            </div>
+            <div class="px-4 py-2">
+                <p class="text-sm text-gray-400">Genre:</p>
+                <p class="text-sm text-white">{{ drama[6] }}</p>
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="text-center mt-12">
+        <h2 class="text-2xl font-semibold text-red-500">Sorry! No Drama Found...</h2>
+    </div>
+    {% endif %}
+</div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto text-center">
+            <p class="mb-4">&copy; 2024 Pak Classic. All rights reserved.</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-gray-400 hover:text-red-400 transition"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-gray-400 hover:text-red-400 transition"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-red-400 transition"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-400 hover:text-red-400 transition"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Assuming `dramas_info` is a JavaScript variable already available on the page
+        const dramas = {{ dramas_info | tojson | safe }};
+        populateFilters(dramas);
+    });
+
+    function populateFilters(dramas) {
+        const yearSelect = document.getElementById('filter-year');
+        const genreSelect = document.getElementById('filter-genre');
+
+        const years = new Set();
+        const genres = new Set();
+
+        dramas.forEach(drama => {
+            years.add(drama[2]);
+            genres.add(drama[6]);
+        });
+
+        // Convert sets to arrays and sort them
+        const sortedYears = Array.from(years).sort((a, b) => a - b); // Sort years numerically
+        const sortedGenres = Array.from(genres).sort(); // Sort genres alphabetically
+
+        // Populate Year Filter
+        yearSelect.innerHTML = '<option value="">Select Year</option>'; // Default option
+        sortedYears.forEach(year => {
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            yearSelect.appendChild(option);
+        });
+
+        // Populate Genre Filter
+        genreSelect.innerHTML = '<option value="">Select Genre</option>'; // Default option
+        sortedGenres.forEach(genre => {
+            const option = document.createElement('option');
+            option.value = genre;
+            option.textContent = genre;
+            genreSelect.appendChild(option);
+        });
+    }
+
+    function filterDramas() {
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+        const selectedYear = document.getElementById('filter-year').value;
+        const selectedGenre = document.getElementById('filter-genre').value;
+        const dramaItems = document.querySelectorAll('.drama-item');
+
+        dramaItems.forEach(item => {
+            const title = item.getAttribute('data-title').toLowerCase();
+            const year = item.getAttribute('data-year');
+            const genre = item.getAttribute('data-genre');
+
+            const matchesSearch = title.includes(searchInput);
+            const matchesYear = selectedYear === '' || year === selectedYear;
+            const matchesGenre = selectedGenre === '' || genre === selectedGenre;
+
+            if (matchesSearch && matchesYear && matchesGenre) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+
+    document.getElementById('search-button').addEventListener('click', filterDramas);
+</script>
+
+
+</body>
+
+</html>

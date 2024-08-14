@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pak Classic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+    </style>
+</head>
+<body class="text-gray-100 font-roboto bg-gray-900">
+
+    <!-- Header -->
+    <header class="bg-gray-800 bg-opacity-75 shadow-md">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <a href="{{ url_for('static', filename='index.html') }}" class="text-3xl font-bold text-red-500 hover:text-red-300 transition">Pak Classic</a>
+            <div class="space-x-6 hidden md:flex">
+                <a href="{{ url_for('static', filename='index.html') }}" class="hover:text-red-300 transition">Search by Drama Name</a>
+                <a href="{{ url_for('static', filename='byWriter.html') }}" class="hover:text-red-300 transition">Search by Writer</a>
+                <a href="{{ url_for('static', filename='byDirector.html') }}" class="hover:text-red-300 transition">Search by Director</a>
+                <a href="{{ url_for('static', filename='byYear.html') }}" class="hover:text-red-300 transition">Search by Year</a>
+                <a href="{{ url_for('static', filename='byGenre.html') }}" class="hover:text-red-300 transition">Search by Genre</a>
+            </div>
+            <button id="menu-toggle" class="md:hidden text-red-500 hover:text-red-300 transition">
+                <i class="fas fa-bars fa-lg"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="md:hidden hidden absolute top-full left-0 w-full bg-gray-800 bg-opacity-90 shadow-md">
+            <div class="flex flex-col p-4">
+                <a href="{{ url_for('static', filename='index.html') }}" class="py-2 hover:text-red-300 transition">Search by Drama Name</a>
+                <a href="{{ url_for('static', filename='byWriter.html') }}" class="py-2 hover:text-red-300 transition">Search by Writer</a>
+                <a href="{{ url_for('static', filename='byDirector.html') }}" class="py-2 hover:text-red-300 transition">Search by Director</a>
+                <a href="{{ url_for('static', filename='byYear.html') }}" class="py-2 hover:text-red-300 transition">Search by Year</a>
+                <a href="{{ url_for('static', filename='byGenre.html') }}" class="py-2 hover:text-red-300 transition">Search by Genre</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-8">
+        <div class="text-center mb-12">
+            <h2 class="text-5xl font-bold text-white mb-4">Search by Drama Name</h2>
+        </div>
+
+        <!-- Search Form -->
+        <div class="flex justify-center mb-12">
+            <form action="/" method="POST" class="w-full max-w-lg bg-gray-800 bg-opacity-75 p-6 rounded-lg shadow-lg flex items-center space-x-2">
+                <input type="text" name="query" id="form-search" placeholder="Search Pak Classic" required
+                       class="w-full px-4 py-2 bg-gray-700 text-white rounded-l-md focus:outline-none focus:ring-2 focus:ring-red-500">
+                <input type="hidden" name="searchBy" value="dramaName">
+                <button type="submit" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-r-md focus:outline-none focus:ring-2 focus:ring-red-500 transition">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Dramas List -->
+        <div>
+            {% if dramaInfo != -1 %}
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                    {% for drama in dramaInfo %}
+                        <div class="bg-gray-800 bg-opacity-75 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                            <a href="{{ drama[7] }}" class="block">
+                                <img src="{{ url_for('static', filename=drama[8]) }}" alt="drama image" class="w-full h-64 object-cover rounded-md mb-4">
+                                <h3 class="text-2xl font-semibold mb-2">{{ drama[1] }}</h3>
+                                <p><span class="font-bold text-red-500">Year:</span> {{ drama[2] }}</p>
+                                <p><span class="font-bold text-red-500">Cast:</span> {{ drama[3] }}</p>
+                                <p><span class="font-bold text-red-500">Writer:</span> {{ drama[5] }}</p>
+                                <p><span class="font-bold text-red-500">Director:</span> {{ drama[4] }}</p>
+                                <p><span class="font-bold text-red-500">Genre:</span> {{ drama[6] }}</p>
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="text-center mt-12">
+                    <h2 class="text-2xl font-semibold text-red-500">Sorry! No Drama Found...</h2>
+                </div>
+            {% endif %}
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-gray-800 bg-opacity-75 py-4 text-center">
+        <p class="text-gray-300">&copy; 2024 Pak Classic. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', () => {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
