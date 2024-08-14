@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 # Configure Chrome options for headless mode
 chrome_options = Options()
-chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--headless")
 
 # Set up ChromeDriver path
 driver_path = '/usr/local/bin/chromedriver'
@@ -17,7 +17,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 
 
 def extract_first_youtube_link(search_query):
-    search_url = f"https://www.google.com/search?q={search_query}"
+    search_url = f"https://www.google.com/search?q={search_query}&tbm=vid"
     driver.get(search_url)
     time.sleep(2)  # Wait for the page to load
 
@@ -26,8 +26,10 @@ def extract_first_youtube_link(search_query):
 
     # Find the first <a> tag with jsname="UWckNb"
     a_tag = soup.find('a', jsname='UWckNb', href=True)
+    print(a_tag['href'])
     if a_tag:
         return a_tag['href']
+
     return None
 
 
@@ -43,7 +45,7 @@ def update_dramas(file_path):
         if len(data) > 1:
             drama_name = data[1]
             year = data[2] if len(data) > 2 else ''
-            search_query = f"{drama_name} {year} youtube"
+            search_query = f"{drama_name} {year} Pakistani drama episode 1"
             youtube_link = extract_first_youtube_link(search_query)
             if youtube_link:
                 data[-1] = youtube_link  # Update the link
