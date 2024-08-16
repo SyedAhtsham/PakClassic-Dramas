@@ -32,22 +32,27 @@
 <div class="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
     <form id="search-form" class="flex flex-col md:flex-row items-between">
         <!-- Search Bar -->
-        <input type="text" id="search-input" placeholder="Search Pak Classic" class="w-full md:w-auto px-4 py-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 mb-4 md:mb-0 md:mr-4 flex-grow">
+        <input type="text" id="search-input" placeholder="Search by drama name" class="w-full md:w-auto px-4 py-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 mb-4 md:mb-0 md:mr-4 flex-grow">
 
         <!-- Filter Options -->
-<div class="flex sm:justify-between space-x-4 md:flex-row mb-4 md:mb-0 md:mr-4">
-    <select id="filter-year" class="bg-gray-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 flex-1">
-        <!-- Year options will be populated dynamically -->
-    </select>
-    <select id="filter-genre" class="bg-gray-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 flex-1">
-        <!-- Genre options will be populated dynamically -->
-    </select>
-</div>
+        <div class="flex sm:justify-between space-x-4 md:flex-row mb-4 md:mb-0 md:mr-4">
+            <select id="filter-year" class="bg-gray-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 flex-1">
+                <!-- Year options will be populated dynamically -->
+            </select>
+            <select id="filter-genre" class="bg-gray-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 flex-1">
+                <!-- Genre options will be populated dynamically -->
+            </select>
+        </div>
 
-        <!-- Search Button -->
-        <button type="button" id="search-button" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 md:w-auto w-full">
-            <i class="fas fa-search"></i> Search
-        </button>
+        <!-- Search and Reset Buttons -->
+        <div class="flex space-x-4">
+            <button type="button" id="search-button" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 md:w-auto w-full">
+                <i class="fas fa-search"></i> Search
+            </button>
+            <button type="button" id="reset-button" class="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 md:w-auto w-full">
+                <i class="fas fa-sync-alt"></i> Reset Filters
+            </button>
+        </div>
     </form>
 </div>
 
@@ -105,7 +110,7 @@
         {% endfor %}
     </div>
     {% else %}
-    <div class="text-center mt-12">
+    <div id="noFound" class="text-center mt-12">
         <h2 class="text-2xl font-semibold text-red-500">Sorry! No Drama Found...</h2>
     </div>
     {% endif %}
@@ -167,30 +172,71 @@
         });
     }
 
-    function filterDramas() {
-        const searchInput = document.getElementById('search-input').value.toLowerCase();
-        const selectedYear = document.getElementById('filter-year').value;
-        const selectedGenre = document.getElementById('filter-genre').value;
-        const dramaItems = document.querySelectorAll('.drama-item');
+    // Levenshtein Distance
+function levenshteinDistance(a, b) {
+    const dp = Array(a.length + 1).fill(null).map(() => Array(b.length + 1).fill(null));
 
-        dramaItems.forEach(item => {
-            const title = item.getAttribute('data-title').toLowerCase();
-            const year = item.getAttribute('data-year');
-            const genre = item.getAttribute('data-genre');
-
-            const matchesSearch = title.includes(searchInput);
-            const matchesYear = selectedYear === '' || year === selectedYear;
-            const matchesGenre = selectedGenre === '' || genre === selectedGenre;
-
-            if (matchesSearch && matchesYear && matchesGenre) {
-                item.style.display = 'block';
-            } else {
-                item.style.display = 'none';
-            }
-        });
+    for (let i = 0; i <= a.length; i += 1) {
+        dp[i][0] = i;
+    }
+    for (let j = 0; j <= b.length; j += 1) {
+        dp[0][j] = j;
     }
 
+    for (let i = 1; i <= a.length; i += 1) {
+        for (let j = 1; j <= b.length; j += 1) {
+            const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+            dp[i][j] = Math.min(
+                dp[i - 1][j] + 1,     // Deletion
+                dp[i][j - 1] + 1,     // Insertion
+                dp[i - 1][j - 1] + cost // Substitution
+            );
+        }
+    }
+
+    return dp[a.length][b.length];
+}
+
+
+    function filterDramas() {
+    const searchInput = document.getElementById('search-input').value.toLowerCase();
+    const selectedYear = document.getElementById('filter-year').value;
+    const selectedGenre = document.getElementById('filter-genre').value;
+    const dramaItems = document.querySelectorAll('.drama-item');
+
+    let i = 0;
+    dramaItems.forEach(item => {
+        const title = item.getAttribute('data-title').toLowerCase();
+        const year = item.getAttribute('data-year');
+        const genre = item.getAttribute('data-genre');
+
+        const matchesSearch = title.includes(searchInput) || levenshteinDistance(searchInput, title) <= 3; // Adjust threshold as needed
+        const matchesYear = selectedYear === '' || year === selectedYear;
+        const matchesGenre = selectedGenre === '' || genre === selectedGenre;
+
+        if (matchesSearch && matchesYear && matchesGenre) {
+            item.style.display = 'block';
+            i += 1;
+        } else {
+            item.style.display = 'none';
+        }
+    });
+
+    if (i == 0) {
+        alert("Sorry! No dramas found");
+    }
+}
+
     document.getElementById('search-button').addEventListener('click', filterDramas);
+
+document.getElementById('reset-button').addEventListener('click', function() {
+    document.getElementById('search-input').value = '';
+    document.getElementById('filter-year').value = '';
+    document.getElementById('filter-genre').value = '';
+    filterDramas(); // Re-run the filter function to show all dramas
+});
+
+
 </script>
 
 
